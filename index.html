@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale="1.0">
+  <title>Табы</title>
+  <link rel="stylesheet" href="style.css"
+</head>
+<body>
+  <main class="page">
+    <h1 class="padge__title">Наши направления</h1>
+
+    <div class="tabs" role="tablist">
+      <button class="tabs__btn tabs__btn--active" role="tab" data-tab="1">Дизайн</button></buttonclass>
+      <button class="tab__btn" role="tab" datatab="2">Разработка</button>
+      <button class="tab__btn" role="tab" datatab="3">Маркетинг</button>
+    </div>
+
+    <div class="tab-content">
+      <selection class="tab-panel tab-panel--active" data-panel="1">
+        <img class="tab-panel__img" src="img/design.jpg" alt="Дизайн"
+        <div class="card">
+          <h2 class="card__title">Дизайн интерфейсов</h2>
+          <p class="card__text">Создаем удобные, красивые интерфейсы</p>
+          <button class="btn">Подробнее</button>
+        </div>
+      </selection>
+
+      <selection class="tab-panel" data-panel="2">
+        <img class="tab-panel__img" src="img/marketing.jpg" alt="Маркетинг">
+        <div class="card">
+          <h2 class="card__title">Веб-Разработка</h2>
+          <p class="card__text">Пишем чистый код и собираем быстрые сайты</p>
+          <button class="btn">Подробнее</button>
+        </div>
+      </selection>
+
+      <div class="tab-content">
+        <selection class="tab-panel tab-panel--active" data-panel="3">
+          <img class="tab-panel__img" src="img/design.jpg" alt="Дизайн"
+          <div class="card">
+            <h2 class="card__title">Маркетинг</h2>
+            <p class="card__text">Помогаем продвигать продукт.</p>
+            <button class="btn">Подробнее</button>
+          </div>
+        </selection>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
